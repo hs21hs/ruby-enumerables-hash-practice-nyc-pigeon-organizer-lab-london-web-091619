@@ -18,5 +18,13 @@ def nyc_pigeon_organizer(data)
             array.each do |element|
               if element==name&&hashvalue==colors_gender_lives
                 
-                hash[name][hashvalue]<<
+                hash[name][hashvalue]<< value.to_s 
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+  hash
 end
